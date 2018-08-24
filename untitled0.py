@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Aug 22 14:11:50 2018
+Created on Fri Aug 24 09:22:41 2018
 
 @author: NTPU
 """
 
-from mcpi.minecraft import Minecraft
-thomas=Minecraft.create()
-
-while True:
-    hit
+form time import sleep
+form mcpi.minecraft import Minecraft
+thomas = Minecraft.create()
+sleep(2)
+myID = thomas.getPlayerEntityId("Thomas0217")
+thomas.postToTitle(myID,"§you died","§ha ha")
